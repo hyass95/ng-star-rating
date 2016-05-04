@@ -21,7 +21,8 @@ Include the font awesome css
 <link rel="stylesheet" href="path-to-font-awesome.css">
 
 ```html
-<script src="bower_components/ng-star-rating/star-rating.js"></script>
+<link rel="stylesheet" href="path-to-font-awessome">
+<!-- by default <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"> -->
 ```
 
 Include the directive in your page
