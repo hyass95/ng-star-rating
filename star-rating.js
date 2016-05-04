@@ -2,15 +2,19 @@
  * Created by Hyacinthe on 28/04/2016.
  */
 
-angular.module('pokersoft.starRating', [])
+angular.module('ps.starRating', [])
     .directive('ngStarRating', function () {
         return {
             scope : {
                 grade : "@grade",
-                height : "@height"
+                height : "@height",
+                color : "@color"
             },
             restrict : 'E',
-            templateUrl : "star-rating.html",
+            template : '' +
+            '<span ng-repeat="i in full_stars"><i class="full fa fa-star {{height}}"></i></span>'+
+            '<span ng-show="half_star"><i class="half fa fa-star-half-full {{height}}"></i></span>'+
+            '<span ng-repeat="i in empty_stars"><i class="empty fa fa-star-o {{height}}"></i></span>',
             /**
              *
              * @param scope
@@ -43,6 +47,8 @@ angular.module('pokersoft.starRating', [])
                         empty_stars[i] = i;
                     }
 
+                    //set the color of the stars
+                    element.css('color', scope.color);
 
                     //set the scope
                     scope.full_stars = full_stars;
