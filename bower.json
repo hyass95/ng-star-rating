@@ -1,7 +1,7 @@
 {
-  "name": "pokersoft/ng-star-rating",
+  "name": "ng-star-rating",
   "version": "1.0",
-  "main": "directives/star-rating/star-rating.js",
+  "main": "star-rating.js",
   "ignore": [
     "**/.*",
     "node_modules",
