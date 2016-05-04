@@ -6,10 +6,10 @@ AngularJS directive to display a rate with stars
 ######[Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 
 ## Installation
-Pretty simple with [Composer](http://packagist.org), add:
+Pretty simple with [Bower](http://bower.io/), add:
 
 ```cmd
-    composer install hyass95/ng-star-rating
+    bower install hyass95/ng-star-rating
 ```
 ## Configuration
 Add dependency to your module
