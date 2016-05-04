@@ -1,7 +1,11 @@
 {
   "name": "ng-star-rating",
-  "version": "1.0",
+  "description" : "AngularJS directive to display a rate with stars",
+  "author" : "The pokersoft",
+  "homepage": "http://thepokersoft.com",
+  "version": "1.0.1",
   "main": "star-rating.js",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
