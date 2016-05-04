@@ -1,0 +1,14 @@
+{
+  "name": "ng-star-rating",
+  "version": "1.0",
+  "main": "star-rating.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.0.6",
+    "FortAwesome/Font-Awesome": "*"
+  }
+}
